@@ -1,0 +1,118 @@
+html {
+    width: 100%;
+}
+
+.header {
+    padding: 20px;
+    background-color: #88c9f9;
+    color: #ffffff;
+    width: 100%;
+    margin: 0;
+}
+
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header nav ul li:hover {
+    background-color: blue;
+    transition: 0.3s ease-in-out;
+}
+
+.about {
+    padding: 10%;
+}
+
+.amazonia,
+.gramados,
+.chapada-diamantina,
+.fernando-de-noronha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    color: #ffffff;
+}
+
+.amazonia {
+    background-color: #186346;
+}
+
+.amazonia div {
+    background: url(../image/Amazonia.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.gramados {
+    background-color: #524940
+}
+
+.gramados div {
+    background: url(../image/Gramadors.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.chapada-diamantina {
+    background-color: #462c26;
+}
+
+.chapada-diamantina div {
+    background: url(../image/Chapada_diamantina.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.fernando-de-noronha {
+    background-color: #24a5ab;
+}
+
+.fernando-de-noronha div {
+    background: url(../image/Fernando_de_noronha.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.form {
+    padding: 10%;
+}
+
+.footer {
+    background-color: #88c9f9;
+    color: #ffffff;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.footer .social i {
+    width: 50px;
+}
+
+.footer p {
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer .social i {
+    width: 50px;
+}
+
+@media(max-width:750px) {
+    .header nav ul {
+        display: block;
+    }
+}
