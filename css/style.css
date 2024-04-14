@@ -51,7 +51,7 @@ html {
 }
 
 .amazonia div {
-    background: url(../image/Amazonia.jpg) center center no-repeat;
+    background: url(../src/image/Amazonia.jpg) center center no-repeat;
     background-size: cover;
     height: 250px;
 }
@@ -61,7 +61,7 @@ html {
 }
 
 .gramados div {
-    background: url(../image/Gramadors.jpg) center center no-repeat;
+    background: url(../src/image/Gramadors.jpg) center center no-repeat;
     background-size: cover;
     height: 250px;
 }
@@ -71,7 +71,7 @@ html {
 }
 
 .chapada-diamantina div {
-    background: url(../image/Chapada_diamantina.jpg) center center no-repeat;
+    background: url(../src/image/Chapada_diamantina.jpg) center center no-repeat;
     background-size: cover;
     height: 250px;
 }
@@ -81,7 +81,7 @@ html {
 }
 
 .fernando-de-noronha div {
-    background: url(../image/Fernando_de_noronha.jpg) center center no-repeat;
+    background: url(../src/image/Fernando_de_noronha.jpg) center center no-repeat;
     background-size: cover;
     height: 250px;
 }
